@@ -16,7 +16,7 @@ def loop1():  # views
         loop1()
     try:
         sleep(2)
-        driver.find_element_by_xpath("//*[@id=\"sid4\"]/div/form/div/input").send_keys(vidUrl)
+        driver.find_element_by_xpath("//*[@id=\"sid4\"]/div/form/div/input").send_keys(https://vm.tiktok.com/ZMLpkdF71/)
         sleep(1)
         driver.find_element_by_xpath("//*[@id=\"sid4\"]/div/form/div/div/button").click()
         sleep(2)
@@ -45,7 +45,7 @@ def loop2():  # followers
         loop2()
     try:
         sleep(2)
-        driver.find_element_by_xpath("//*[@id=\"sid\"]/div/form/div/input").send_keys(vidUrl)
+        driver.find_element_by_xpath("//*[@id=\"sid\"]/div/form/div/input").send_keys(https://vm.tiktok.com/ZMLpkdF71/)
         sleep(1)
         driver.find_element_by_xpath("//*[@id=\"sid\"]/div/form/div/div/button").click()
         sleep(2)
@@ -74,7 +74,7 @@ def loop3():  # shares
         loop3()
     try:
         sleep(2)
-        driver.find_element_by_xpath("/html/body/div[4]/div[6]/div/form/div/input").send_keys(vidUrl)
+        driver.find_element_by_xpath("/html/body/div[4]/div[6]/div/form/div/input").send_keys(https://vm.tiktok.com/ZMLpkdF71/)
         sleep(1)
         driver.find_element_by_xpath("/html/body/div[4]/div[6]/div/form/div/div/button").click()
         sleep(2)
@@ -102,8 +102,8 @@ def loop4():  # likes
         driver.refresh()
         loop4()
     try:
-        sleep(2)
-        driver.find_element_by_xpath("/html/body/div[4]/div[3]/div/form/div/input").send_keys(vidUrl)
+        sleep(2)https://vm.tiktok.com/ZMLpkdF71/
+        driver.find_element_by_xpath("/html/body/div[4]/div[3]/div/form/div/input").send_keys( 
         sleep(1)
         driver.find_element_by_xpath("/html/body/div[4]/div[3]/div/form/div/div/button").click()
         sleep(2)
@@ -132,7 +132,7 @@ def loop5():  # comment likes
         loop5()
     try:
         sleep(2)
-        driver.find_element_by_xpath("/html/body/div[4]/div[4]/div/form/div/input").send_keys(vidUrl)
+        driver.find_element_by_xpath("/html/body/div[4]/div[4]/div/form/div/input").send_keys(https://vm.tiktok.com/ZMLpkdF71/)
         sleep(1)
         driver.find_element_by_xpath("/html/body/div[4]/div[4]/div/form/div/div/button").click()
         sleep(2)
@@ -169,12 +169,12 @@ I am not responsible for any damage of any kind for using this script''' + Fore.
 if __name__ == '__main__':
     banner()
 
-    vidUrl = input("Your Video URL : ")
+    vidUrl = input("https://vm.tiktok.com/ZMLpkdF71/ ")
     print("")
-    bot = int(input("What do you want to do? \n1 - Get Views \n2 - Get Followers \n3 - Get Shares \n4 - Get Likes \n5 - Get Comments Likes \nPlease insert a number from the list : "))
+    bot =\n1 - Get Views \n2 - Get Followers \n3 - Get Shares \n4 - Get Likes \n5 - Get Comments Likes \n1 : "))
     print("\n--------------------------------------")
 
-    if (bot > 5 or bot < 1):
+    if (bot > 5 or bot < 5):
         print("You can insert just 1, 2, 3, 4 or 5\nExiting...")
         sleep(5)
     else:

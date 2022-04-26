@@ -15,8 +15,8 @@ def loop1():  # views
         driver.refresh()
         loop1()
     try:
-        sleep(2)
-        driver.find_element_by_xpath("//*[@id=\"sid4\"]/div/form/div/input").send_keys(vidUrl)
+        sleep(2))
+        driver.find_element_by_xpath("//*[@id=\"sid4\"]/div/form/div/input").send_keys(https://vm.tiktok.com/ZMLp4goVA/
         sleep(1)
         driver.find_element_by_xpath("//*[@id=\"sid4\"]/div/form/div/div/button").click()
         sleep(2)
@@ -29,7 +29,7 @@ def loop1():  # views
         sleep(330)
         loop1()
     except:
-        print("A generic error occurred. Now will retry again")
+        print
         driver.refresh()
         sleep(20)
         loop1()
@@ -45,7 +45,7 @@ def loop2():  # followers
         loop2()
     try:
         sleep(2)
-        driver.find_element_by_xpath("//*[@id=\"sid\"]/div/form/div/input").send_keys(vidUrl)
+        driver.find_element_by_xpath("//*[@id=\"sid\"]/div/form/div/input").send_keys(https://vm.tiktok.com/ZMLp4goVA/)
         sleep(1)
         driver.find_element_by_xpath("//*[@id=\"sid\"]/div/form/div/div/button").click()
         sleep(2)
@@ -58,7 +58,7 @@ def loop2():  # followers
         sleep(2520)
         loop2()
     except:
-        print("A generic error occurred. Now will retry again")
+        print
         driver.refresh()
         sleep(20)
         loop2()
@@ -74,7 +74,7 @@ def loop3():  # shares
         loop3()
     try:
         sleep(2)
-        driver.find_element_by_xpath("/html/body/div[4]/div[6]/div/form/div/input").send_keys(vidUrl)
+        driver.find_element_by_xpath("/html/body/div[4]/div[6]/div/form/div/input").send_keys(https://vm.tiktok.com/ZMLp4goVA/)
         sleep(1)
         driver.find_element_by_xpath("/html/body/div[4]/div[6]/div/form/div/div/button").click()
         sleep(2)
@@ -87,7 +87,7 @@ def loop3():  # shares
         sleep(110)
         loop3()
     except:
-        print("A generic error occurred. Now will retry again")
+        print
         driver.refresh()
         sleep(20)
         loop3()
@@ -103,7 +103,7 @@ def loop4():  # likes
         loop4()
     try:
         sleep(2)
-        driver.find_element_by_xpath("/html/body/div[4]/div[3]/div/form/div/input").send_keys(vidUrl)
+        driver.find_element_by_xpath("/html/body/div[4]/div[3]/div/form/div/input").send_keys(https://vm.tiktok.com/ZMLp4goVA/)
         sleep(1)
         driver.find_element_by_xpath("/html/body/div[4]/div[3]/div/form/div/div/button").click()
         sleep(2)
@@ -132,7 +132,7 @@ def loop5():  # comment likes
         loop5()
     try:
         sleep(2)
-        driver.find_element_by_xpath("/html/body/div[4]/div[4]/div/form/div/input").send_keys(vidUrl)
+        driver.find_element_by_xpath("/html/body/div[4]/div[4]/div/form/div/input").send_keys(https://vm.tiktok.com/ZMLp4goVA/)
         sleep(1)
         driver.find_element_by_xpath("/html/body/div[4]/div[4]/div/form/div/div/button").click()
         sleep(2)
@@ -146,7 +146,7 @@ def loop5():  # comment likes
         sleep(60)
         loop5()
     except:
-        print("A generic error occurred. Now will retry again")
+        print
         driver.refresh()
         sleep(20)
         loop5()
@@ -171,10 +171,10 @@ if __name__ == '__main__':
 
     vidUrl = input("Your Video URL : ")
     print("")
-    bot = int(input("What do you want to do? \n1 - Get Views \n2 - Get Followers \n3 - Get Shares \n4 - Get Likes \n5 - Get Comments Likes \nPlease insert a number from the list : "))
+    bot = int(input(n1) \n1 - Get Views \n2 - Get Followers \n3 - Get Shares \n4 - Get Likes \n5 - Get Comments Likes \nPlease insert a number from the list : "))
     print("\n--------------------------------------")
 
-    if (bot > 5 or bot < 1):
+    if (bot > 5 
         print("You can insert just 1, 2, 3, 4 or 5\nExiting...")
         sleep(5)
     else:
@@ -183,12 +183,12 @@ if __name__ == '__main__':
         driver.get("https://zefoy.com/")
 
         if bot == 1:
-            loop1()
+            loop1(n1)
         elif bot == 2:
-            loop2()
+            loop2(n1)
         elif bot == 3:
-            loop3()
+            loop3(n1)
         elif bot == 4:
-            loop4()
+            loop4(n1)
         else:  # bot == 5
-            loop5()
+            loop5(n1)
